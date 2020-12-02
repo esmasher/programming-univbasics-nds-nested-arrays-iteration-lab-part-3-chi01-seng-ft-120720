@@ -12,6 +12,6 @@ mixed_data_2 = [
   ["Things", "fall", "apart;", "the", "centre", "cannot", "hold"]
 ]
   separated_array = mixed_data_1.partition { |item| item.is_a? String }
-  puts separated_array
+  return separated_array
 end
  
