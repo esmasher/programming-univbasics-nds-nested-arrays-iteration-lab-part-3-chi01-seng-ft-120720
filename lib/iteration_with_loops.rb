@@ -1,3 +1,4 @@
 def join_nested_strings(src)
- puts "The quick brown fox studied Ruby"
+ src = "The quick brown fox studied Ruby"
 end
+ src
