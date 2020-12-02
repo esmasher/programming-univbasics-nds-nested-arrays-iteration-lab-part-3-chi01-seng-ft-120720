@@ -11,7 +11,6 @@ mixed_data_2 = [
   ["The", "falcon", "cannot", "hear", "the", "falconer;"],
   ["Things", "fall", "apart;", "the", "centre", "cannot", "hold"]
 ]
-  separated_array = mixed_data_1.partition { |item| item.is_a? String }
-  p separated_array
+  separated_array = array.select { |item| item.is_a? String
 end
  
