@@ -11,8 +11,8 @@ mixed_data_2 = [
   ["The", "falcon", "cannot", "hear", "the", "falconer;"],
   ["Things", "fall", "apart;", "the", "centre", "cannot", "hold"]
 ]
-  separated_array = array.select { |item| item.is_a? String}
-  separated_array
+  src = array.select { |item| item.is_a? String}
+  src
   
 end
  
